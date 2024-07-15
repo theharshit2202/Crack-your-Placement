@@ -2,7 +2,7 @@ public class Solution {
     public void moveZeroes(int[] nums) {
         int lastNonZeroFoundAt = 0;
 
-        // Move all non-zero elements to the front of the array
+        //  Move all non-zero elements to the front of the array
         for (int current = 0; current < nums.length; current++) {
             if (nums[current] != 0) {
                 // Swap elements at current and lastNonZeroFoundAt
