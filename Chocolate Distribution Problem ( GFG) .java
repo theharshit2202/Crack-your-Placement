@@ -1,3 +1,4 @@
+//day 3
 import java.util.Arrays;
 
 public class ChocolateDistribution {
